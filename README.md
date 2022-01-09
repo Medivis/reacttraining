@@ -1,6 +1,6 @@
 # React Training
 
-This is a React powered Website for our IWW Product.
+This is a React Test project with some basic Components
 
 ## Available Scripts
 
