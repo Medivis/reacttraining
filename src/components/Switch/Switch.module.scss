@@ -1,0 +1,14 @@
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        filter: brightness(1.30);
+    }
+}

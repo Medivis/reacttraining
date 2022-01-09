@@ -1,0 +1,15 @@
+.content {
+
+    --topMargin: calc(30.4px + 56px);
+
+    margin: 0;
+    margin-top: var(--topMargin);
+
+    @media only screen and (max-width: 768px) {
+        --topMargin: 56px;
+    }
+
+    &.fullscreen{
+        min-height: calc(100vh - var(--topMargin));
+    }
+}

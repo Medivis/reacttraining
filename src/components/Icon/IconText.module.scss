@@ -1,0 +1,30 @@
+.container {
+    margin: calc(1.5 * var(--margin-large)) 0;
+
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 'icon text';
+
+    @media only screen and (max-width: 768px) {
+        text-align: center;
+        grid-template-columns: 0.5fr auto 0.5fr;
+        grid-template-areas: '. icon .' 
+                             'text text text';
+    }
+
+    .icon {
+        grid-area: icon;
+        margin: var(--margin-large);
+        margin-top: var(--margin-small);
+    }
+
+    .text {
+        grid-area: text;
+        margin: 0;
+
+        >* {
+            margin: 0;
+        }
+    }
+}

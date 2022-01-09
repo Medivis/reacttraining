@@ -1,0 +1,18 @@
+.center {
+    position: relative;
+    display: grid;
+
+    .center_object{
+        margin: auto;
+    }
+}
+
+.center_old {
+    position: relative;
+    display: block;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

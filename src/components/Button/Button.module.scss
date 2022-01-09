@@ -1,0 +1,49 @@
+.button {
+    border: none;
+    background-color: var(--black);
+    color: white;
+    cursor: pointer;
+
+    font-size: larger;
+    padding: 10px;
+
+    min-width: 80px;
+    max-height: 45px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        filter: brightness(1.50);
+    }
+
+    &.outline {
+        background-color: transparent;
+        border-width: 1px;
+        border-color: var(--black);
+        border-style: solid;
+        color: var(--black);
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    &.transparent {
+        background-color: transparent;
+        color: var(--black);
+        font-size: larger;
+        padding: 0;
+
+        min-width: 0;
+        max-height: none;
+    }
+
+    &.small{
+        //min-width: 60px;
+        max-height: 45px;
+        padding: 6px 10px;
+        font-size: var(--font-medium);
+    }
+}

@@ -1,0 +1,46 @@
+.container{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    
+    .video_wrapper {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        z-index: -1;
+
+        .video_overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color:white;
+            opacity: 0.4;
+            z-index: 2;
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+
+            //Setting width & height to auto prevents the 
+            //browser from stretching or squishing the video
+            width: auto;
+            height: auto;
+
+            //Center the video
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .content {
+        position: relative;
+        width: 100%;
+    }
+}

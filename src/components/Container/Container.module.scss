@@ -1,0 +1,23 @@
+.container_large {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1500px;
+}
+
+.container_small {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.container_padding_sides{
+    padding-left: var(--margin-large);
+    padding-right: var(--margin-large);
+}
+
+.container_padding_top {
+    padding-top: var(--margin-large);
+    padding-bottom: var(--margin-large);
+}

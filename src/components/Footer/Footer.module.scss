@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--darkGray);
+    background: linear-gradient(180deg, var(--black), #141414);
+	border-width: 10px;
+	border-top-style: solid;
+    border-image: linear-gradient(90deg, #FB8817, #F0357D) 3;
+    --textColor: white;
+    color: var(--textColor);
+    box-sizing: border-box;
+
+    .footer_container {
+        margin: 16px 0;
+        ul {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            flex-wrap: wrap;
+            padding: 0;
+            a {
+                color: var(--textColor);
+                text-decoration: none;
+                transition: 0.1s;
+                list-style: none;
+                font-weight: 400;
+                padding-right: 32px;
+                margin-bottom: 16px;
+                &:hover {
+                    filter: brightness(0.75);
+                }
+            }
+        }
+
+        p {
+            margin: 0;
+            color: var(--textColor);
+            opacity: 0.5;
+            font-size: var(--font-small);
+        }
+    }
+
+}

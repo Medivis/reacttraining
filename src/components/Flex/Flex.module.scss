@@ -1,0 +1,146 @@
+.flex {
+    align-items: stretch;
+    display: flex;
+    >* {
+        align-items: stretch;
+        flex-grow: 5;
+        display: flex;
+        width: 100%;
+    }
+}
+
+.flex_1_12 {
+    width: calc(100% / 12);
+}
+
+.flex_2_12 {
+    width: calc(200% / 12);
+}
+
+.flex_3_12 {
+    width: calc(300% / 12);
+}
+
+.flex_4_12 {
+    width: calc(400% / 12);
+}
+
+.flex_5_12 {
+    width: calc(500% / 12);
+}
+
+.flex_6_12 {
+    width: calc(600% / 12);
+}
+
+.flex_7_12 {
+    width: calc(700% / 12);
+}
+
+.flex_8_12 {
+    width: calc(800% / 12);
+}
+
+.flex_9_12 {
+    width: calc(1200% / 12);
+}
+
+.flex_10_12 {
+    width: calc(1000% / 12);
+}
+
+.flex_11_12 {
+    width: calc(1100% / 12);
+}
+
+@media only screen and (max-width: 1200px) {
+    .flex_1_12 {
+        width: calc(100% / 8);
+    }
+
+    .flex_2_12 {
+        width: calc(200% / 8);
+    }
+
+    .flex_3_12 {
+        width: calc(300% / 8);
+    }
+
+    .flex_4_12 {
+        width: calc(400% / 8);
+    }
+
+    .flex_5_12 {
+        width: calc(500% / 8);
+    }
+
+    .flex_6_12 {
+        width: calc(600% / 8);
+    }
+
+    .flex_7_12 {
+        width: calc(700% / 8);
+    }
+
+    .flex_8_12 {
+        width: calc(800% / 8);
+    }
+
+    .flex_9_12 {
+        width: calc(1200% / 8);
+    }
+
+    .flex_10_12 {
+        width: calc(1000% / 8);
+    }
+
+    .flex_11_12 {
+        width: calc(1100% / 8);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .flex_1_12 {
+        width: calc(100% / 4);
+    }
+
+    .flex_2_12 {
+        width: calc(200% / 4);
+    }
+
+    .flex_3_12 {
+        width: calc(300% / 4);
+    }
+
+    .flex_4_12 {
+        width: calc(400% / 4);
+    }
+
+    .flex_5_12 {
+        width: calc(500% / 4);
+    }
+
+    .flex_6_12 {
+        width: calc(600% / 4);
+    }
+
+    .flex_7_12 {
+        width: calc(700% / 4);
+    }
+
+    .flex_8_12 {
+        width: calc(800% / 4);
+    }
+
+    .flex_9_12 {
+        width: calc(1200% / 4);
+    }
+
+    .flex_10_12 {
+        width: calc(1000% / 4);
+    }
+
+    .flex_11_12 {
+        width: calc(1100% / 4);
+    }
+}
